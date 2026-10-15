@@ -1,0 +1,11 @@
+# 自动化测试项目依赖
+# 安装：pip install -r requirements.txt
+#
+# 注意：如果 pip 用的是国内镜像源，镜像里可能没有 playwright，请用官方源安装：
+#   pip install -r requirements.txt -i https://pypi.org/simple
+
+playwright==1.64.0
+pytest==9.1.1
+pytest-playwright==0.10.0
+pytest-html==4.2.0
+python-dotenv==1.2.4
